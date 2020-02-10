@@ -34,7 +34,7 @@ int binarysearch(int arr[],int l,int r,int x)
 int main()
 {
  int arr[]={2,3,4,6,7,10,70};
- int x=10;
+ int x=99;
  int n=sizeof(arr)/sizeof(int);
  int result=binarysearch(arr,0,n-1,x);
  
